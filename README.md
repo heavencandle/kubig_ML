@@ -1,9 +1,10 @@
 # Machine Learning
 
 ## #1. Machine Learning Basics
-### What is Machine Laerning
-1. Machine Learning: 1) field of study that gives computers the ability to learn without being explicitly programmed.  
-                     2) A coputer program i said to learn from experience E with respect to some task T and some performance measure P, if it performance on T, as measured by P, improves with experience E.  
+### What is Machine Learnning
+1. Machine Learning
+  field of study that gives computers the ability to learn without being explicitly programmed.  
+  A coputer program i said to learn from experience E with respect to some task T and some performance measure P, if it performance on T, as measured by P, improves with experience E.  
 
 2. Machine Learning is great for:
   1)Problems for which exiting solutions require a lot of hand-tuning or long lists of rules  
