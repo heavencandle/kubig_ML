@@ -36,24 +36,16 @@
  
 7. Overfitting : the model performs well on the training data, but does not generalize well(=underperform on the test data). **happens when the models is too complex relative to the amount and noisiness of the training data.**  
     - solution: 
-	
-	
-      1)simplify the model by selecting one with fewer prarmeters(e.g. a liear model rather than a high-degree polynomial model), reduce number of attributes  
-      2)gather more training data   
-      3)reduce the noise in the training data(e.g. fix data errors,dand remove outliers)  
-		
-		
- 
+    ```1)simplify the model by selecting one with fewer prarmeters(e.g. a liear model rather than a high-degree polynomial model), reduce number of attributes  
+    2)gather more training data   
+    3)reduce the noise in the training data(e.g. fix data errors,dand remove outliers)```
+
 8. underfitting: when the model is too simple to learn the structure of data
     - solution
-
-
-      1)select more complex model with more parameters  
-		  2)add better features  
-		  3)reduce the constraints(e.g. regularization)  
+    ```1)select more complex model with more parameters  
+    2)add better features  
+    3)reduce the constraints(e.g. regularization)```  
 						 
-						 
-
 9. train, validation, test set
     - generalization error: error rate on new case  
     - **model selection: select the model and hyperparameters that perform best on the validation set.** After final model is selected, train hyperparameters on the full training set and measure generalized error on the test set
