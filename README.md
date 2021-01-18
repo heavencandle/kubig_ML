@@ -19,30 +19,39 @@
         - instance based: learns the example by heart(memorize), generalizes to new cases based on similarity  
         - model based: learns model, decides based on model  
   
+### Model Tuning and Measurements
 4. parameters - learning rate  
     - learning rate= how fast model hould adapt to change  
     - high: rapidly adapt to new data, but tend to quickly forget the old data   
     - low: have more inertia. learn more slowly, less sensitive to noise  
-  
-5. utility function / cost funciton  
+
+5. Measurements: utility function / cost funciton  
     - utility function(fitness function): how **good** the model is  
     - cost function: how **bad** the model is  
+    
+6. train, validation, test set
+    - generalization error: error rate on new case  
+    - **model selection: select the model and hyperparameters that perform best on the validation set.** After final model is selected, train hyperparameters on the full training set and measure generalized error on the test set
+    - cross validation: the training set is split into complementary subsets, and each model i trained against a different combination of subsets and validated against the remaining parts. (_e.g. splitted training set A, B, C. train w/ A&B and validate on C. train w/ A&C and validate on B and so on_)
+
   
-6. Data driven problems  
+### Possible Problems
+7. Data driven problems  
     1. insufficiency  
     2. nonrepresentative(e.g. sampling bias)  
     3. poor-quality  
     4. irrelevant features ---> feature selection / feature extraction  
  
-7. Overfitting : the model performs well on the training data, but does not generalize well(=underperform on the test data). **happens when the models is too complex relative to the amount and noisiness of the training data.**  
-    - solution: 
+8. Overfitting : the model performs well on the training data, but does not generalize well(=underperform on the test data). **happens when the models is too complex relative to the amount and noisiness of the training data.**  
+    - solution
     ```
-    1)simplify the model by selecting one with fewer prarmeters(e.g. a liear model rather than a high-degree polynomial model), reduce number of attributes  
+    1)simplify the model by selecting one with fewer prarmeters, reduce number of attributes
+      (e.g. a liear model rather than a high-degree polynomial model)
     2)gather more training data   
     3)reduce the noise in the training data(e.g. fix data errors,dand remove outliers)
     ```
 
-8. underfitting: when the model is too simple to learn the structure of data
+9. underfitting: when the model is too simple to learn the structure of data
     - solution
     ```
     1)select more complex model with more parameters  
@@ -50,10 +59,6 @@
     3)reduce the constraints(e.g. regularization)
     ```  
 						 
-9. train, validation, test set
-    - generalization error: error rate on new case  
-    - **model selection: select the model and hyperparameters that perform best on the validation set.** After final model is selected, train hyperparameters on the full training set and measure generalized error on the test set
-    - cross validation: the training set is split into complementary subsets, and each model i trained against a different combination of subsets and validated against the remaining parts. (e.g. splitted training set A, B, C. train w/ A&B and validate on C. train w/ A&C and validate on B and so on)
 
 ## #3. Classification
   
