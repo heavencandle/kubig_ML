@@ -72,6 +72,7 @@ if __name__ == '__main__':
     never_5_clf = Never5Classifier()
     print(cross_val_score(never_5_clf, X_train, y_train_5, cv =3, scoring="accuracy")) #[0.90765 0.9122  0.90985]
 
+    #commit
 
 
 
