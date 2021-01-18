@@ -1,6 +1,6 @@
 # Machine Learning
 
-## #1. Machine Learning Basics
+## 1. Machine Learning Basics
 ### 1-1. What is Machine Learnning
 1. Machine Learning
     1. field of study that gives computers the ability to learn without being explicitly programmed.
@@ -59,6 +59,6 @@
     ```  
 						 
 
-## #3. Classification
+## 3. Classification
   
 
