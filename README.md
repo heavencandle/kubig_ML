@@ -1,5 +1,7 @@
 # Machine Learning
 
+## 0. Library Spec
+- scikit-learn v.0.22.1
 ## 1. Machine Learning Basics
 ### 1-1. What is Machine Learnning
 1. Machine Learning
