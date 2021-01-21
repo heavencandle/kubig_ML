@@ -60,7 +60,5 @@
     3)reduce the constraints(e.g. regularization)
     ```  
 						 
-
-## 3. Classification
   
 
