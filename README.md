@@ -1,4 +1,5 @@
 # Machine Learning
+- based on "Hands-On Machine Learning with Scikit-Learn and TensorFlow by Aurélien Géron"
 
 ## 0. Library Spec
 - scikit-learn v.0.22.1
@@ -60,7 +61,5 @@
     3)reduce the constraints(e.g. regularization)
     ```  
 						 
-
-## 3. Classification
   
 
